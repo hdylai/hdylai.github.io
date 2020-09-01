@@ -1,0 +1,31 @@
+<div class="container">
+  <header>
+    <h1>Hilary Lai</h1>
+  </header>
+
+  <section>
+    <p>
+      is currently a designer at Condé Nast, designing digital platforms for brands such as
+      <span>The New Yorker</span>, <span>Vanity Fair</span>, & <span>Wired</span>.
+      <br />
+      <br />
+      When she's not working her day job, you can probably find her trying to figure out how to code
+      this website.
+      <br />
+      <br />
+      (Please excuse the <span>~digital~</span> dust and probably untentional wonky code. )
+    </p>
+  </section>
+
+  <footer>
+    <a href="www.instagram.com/themodernpilrim/">Instagram</a>
+    <br />
+    <a href="www.goodreads.com/hdylai">Goodreads</a> <br />
+    <a href="https://open.spotify.com/user/1247638295?si=Ap9Oc_UxSkyybohKfINuqw">Spotify</a>
+    <br />
+    — <br />
+    hello@hilarylai.me
+  </footer>
+
+  <div id="thumbnail"></div>
+</div>
