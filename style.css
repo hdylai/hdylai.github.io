@@ -26,7 +26,6 @@
 
 .container {
   display: grid;
-  height: calc(100vh - 85px);
   min-height: : calc(100vh - 75px);
   width: calc(100vw - 72px);
   margin-left: 36px;
