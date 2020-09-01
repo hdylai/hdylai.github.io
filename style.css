@@ -97,7 +97,7 @@ footer {
 
   grid-column: 1/13;
   grid-row: 4;
-  background: #ffead7;
+  *background: #ffead7;
   z-index: 2;
   align-self: end;
 }
