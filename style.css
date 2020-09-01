@@ -79,7 +79,7 @@ header {
   grid-column: 1/13;
   *background: white;
   z-index: 2;
-  height: 70px;
+  height: 90px;
 }
 
 main {
@@ -136,5 +136,25 @@ footer {
     grid-gap: 0.2rem;
     grid-template-rows: auto 1fr auto;
   }
+
+  header {
+    -webkit-font-smoothing: antialiased;
+    height: 80px;
+  }
+
+  body {
+    font-family: 'GTAmerica';
+    font-size: 18px;
+    letter-spacing: -0.035em;
+    line-height: 1.2em;
+  }
+  footer {
+    position: absolute;
+    bottom: 50px;
+
+    font-family: GTAmerica;
+    font-size: 14px;
+    letter-spacing: normal;
+    line-height: 1.2em;
 
 }
