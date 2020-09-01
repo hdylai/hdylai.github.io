@@ -1,11 +1,11 @@
 @font-face {
   font-family: FreightDisp;
   font-style: italic;
+  src: url("fonts/FreightDisp-BookItalic.eot");
   src: url("fonts/FreightDisp-BookItalic.woff"),
   url("fonts/FreightDisp-BookItalic.woff2"),
-  url("fonts/FreightDisp-BookItalic.eot"),
   url("fonts/FreightDisp-BookItalic.ttf"),
-  url("fonts/FreightDisp-BookItalic.otf")format("opentype");
+  url("fonts/FreightDisp-BookItalic.otf");
 }
 
 @font-face {
@@ -98,7 +98,7 @@ footer {
   grid-row: 4;
   *background: #ffead7;
   z-index: 2;
-  align-self: end;
+  /* align-self: end; */
 }
 
 a{
