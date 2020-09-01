@@ -1,18 +1,22 @@
 @font-face {
   font-family: FreightDisp;
   font-style: italic;
+  font-weight: 100;
+  src: url("fonts/FreightDisp-BookItalic.otf")format("opentype");
   src: url("fonts/FreightDisp-BookItalic.woff");
 }
 
 @font-face {
   font-family: GTAmerica;
   font-style: normal;
+  font-weight: normal;
   src: url("fonts/GTAmerica-Regular.woff");
 }
 
 @font-face {
   font-family: GTAmerica;
   font-style: italic;
+  font-weight: normal;
   src: url("fonts/GTAmerica-RegularItalic.woff");
 }
 
@@ -25,13 +29,15 @@
   width: calc(100vw-72);
   margin-left: 36px;
   margin-top: 36px;
-  margin-bottom: 36px;
+  margin-bottom: 50px;
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 0.2rem;
   grid-template-rows: min-content auto 0.1fr;
 }
 
 header {
+  -webkit-font-smoothing: antialiased;
+
   grid-column: 1/13;
   *background: #ffead7;
   z-index: 2;
@@ -53,13 +59,19 @@ section {
 }
 
 h1 {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
   font-family: FreightDisp;
   letter-spacing: normal;
   font-size: 48px;
-  line-height: 55px;
+  line-height: min-height;
 }
 
 body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
   font-family: GTAmerica;
   font-size: 24px;
   letter-spacing: -0.035em;
