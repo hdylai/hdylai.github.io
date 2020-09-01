@@ -34,21 +34,22 @@
   margin-bottom: 75px;
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 0.2rem;
-  grid-template-rows: min-content auto auto;
+  grid-template-rows: min-height min-height auto;
 }
 
 header {
   -webkit-font-smoothing: antialiased;
 
   grid-column: 1/13;
-  *background: #ffead7;
+  *background: white;
   z-index: 2;
+  height: 70px;
 }
 
 section {
   grid-column: 1/5;
   grid-row: 2;
- 	*background: #bce3ff;
+ 	*background: white;
   z-index: 2;
 }
 
@@ -98,7 +99,7 @@ footer {
   grid-row: 4;
   *background: #ffead7;
   z-index: 2;
-  /* align-self: end; */
+  align-self: end;
 }
 
 a{
