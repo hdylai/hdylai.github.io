@@ -7,6 +7,7 @@ body{
 @font-face {
   font-family: FreightDisp;
   font-style: italic;
+  font-weight: normal;
   src: url("fonts/FreightDisp-BookItalic.eot");
   src: url("fonts/FreightDisp-BookItalic.woff"),
   url("fonts/FreightDisp-BookItalic.woff2"),
@@ -139,6 +140,7 @@ footer {
 
   header {
     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     height: 80px;
   }
 
