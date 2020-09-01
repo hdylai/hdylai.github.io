@@ -31,12 +31,12 @@ body{
 
 .container {
   display: grid;
-  *min-height: : calc(100vh - 75px);
+  *min-height: : calc(100vh - 100px);
   min-height: 100%;
   width: calc(100vw - 72px);
   margin-left: 36px;
   /* margin-top: 36px; */
-  margin-bottom: 75px;
+  margin-bottom: 100px;
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 0.2rem;
   grid-template-rows: min-height min-height auto;
@@ -120,7 +120,7 @@ a:hover {
 
 @media only screen and (max-width: 768px) {
   .container {
-    min-height: calc(100vh - 75px);
+    min-height: calc(100vh - 100px);
     grid-template-columns: 1fr;
     grid-gap: 0.2rem;
     grid-template-rows: 0.1fr 0.15fr auto 0.1fr;
