@@ -82,6 +82,7 @@ body {
   letter-spacing: -0.035em;
   line-height: 29px;
   background: linear-gradient(122.18deg, #FFEAD7 8.01%, #BCE3FF 95.95%);
+  overflow: hidden; /* Hide scrollbars */
 }
 
 span {
