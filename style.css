@@ -1,8 +1,10 @@
 @font-face {
   font-family: FreightDisp;
   font-style: italic;
-  font-weight: 100;
   src: url("fonts/FreightDisp-BookItalic.woff"),
+  url("fonts/FreightDisp-BookItalic.woff2"),
+  url("fonts/FreightDisp-BookItalic.eot"),
+  url("fonts/FreightDisp-BookItalic.ttf"),
   url("fonts/FreightDisp-BookItalic.otf")format("opentype");
 }
 
