@@ -1,10 +1,6 @@
 html,
-header, body, footer{
+body{
   height: 100%;
-}
-
-.fullscreen {
-  min-height: 100%;
 }
 
 @font-face {
@@ -35,7 +31,8 @@ header, body, footer{
 
 .container {
   display: grid;
-  min-height: : calc(100vh - 75px);
+  *min-height: : calc(100vh - 75px);
+  min-height: 100%;
   width: calc(100vw - 72px);
   margin-left: 36px;
   /* margin-top: 36px; */
@@ -123,7 +120,7 @@ a:hover {
 
 @media only screen and (max-width: 768px) {
   .container {
-    height: innerHeight;
+    min-height: calc(100vh - 75px);
     grid-template-columns: 1fr;
     grid-gap: 0.2rem;
     grid-template-rows: 0.1fr 0.15fr auto 0.1fr;
