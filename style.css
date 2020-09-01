@@ -1,19 +1,19 @@
 @font-face {
   font-family: FreightDisp;
   font-style: italic;
-  src: url("/fonts/FreightDisp-BookItalic.woff")format("woff"),
+  src: url("./fonts/FreightDisp-BookItalic.woff")format("woff"),
 }
 
 @font-face {
   font-family: GTAmerica;
   font-style: normal;
-  src: url("/fonts/GTAmerica-Regular.woff")format("woff"),
+  src: url("./fonts/GTAmerica-Regular.woff")format("woff"),
 }
 
 @font-face {
   font-family: GTAmerica;
   font-style: italic;
-  src: url("/fonts/GTAmerica-RegularItalic.woff")format("woff"),
+  src: url("./fonts/GTAmerica-RegularItalic.woff")format("woff"),
 }
 
 
