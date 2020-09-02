@@ -5,14 +5,15 @@ body{
 }
 
 @font-face {
-  font-family: FreightDisp;
+  font-family: Freight Disp Book;
   font-style: italic;
   font-weight: normal;
-  src: url("fonts/FreightDisp-BookItalic.eot");
-  src: url("fonts/FreightDisp-BookItalic.woff"),
-  url("fonts/FreightDisp-BookItalic.woff2"),
-  url("fonts/FreightDisp-BookItalic.ttf"),
-  url("fonts/FreightDisp-BookItalic.otf");
+  src: url('fonts/FreightDisp-BookItalic.eot');
+  src: url('fonts/FreightDisp-BookItalic.eot?#iefix') format('embedded-opentype').
+  url('FreightDisp-BookItalic.woff2') format('woff2'),
+  url('FreightDisp-BookItalic.woff') format('woff'),
+  url('FreightDisp-BookItalic.ttf') format('truetype');
+  font-display: swap;
 }
 
 @font-face {
@@ -45,7 +46,7 @@ h1 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  font-family: FreightDisp, sans-serif;
+  font-family: Freight Disp Book, sans-serif;
   letter-spacing: normal;
   font-size: 48px;
   font-weight:200;
