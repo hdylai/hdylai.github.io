@@ -9,11 +9,10 @@ body{
   font-style: italic;
   font-weight: normal;
   src: url('fonts/FreightDisp-BookItalic.eot');
-  src: url('fonts/FreightDisp-BookItalic.eot?#iefix') format('embedded-opentype').
-  url('FreightDisp-BookItalic.woff2') format('woff2'),
-  url('FreightDisp-BookItalic.woff') format('woff'),
-  url('FreightDisp-BookItalic.ttf') format('truetype');
-  font-display: swap;
+  src: url('fonts/FreightDisp-BookItalic.eot?#iefix') format('embedded-opentype'),
+  url('fonts/FreightDisp-BookItalic.woff2') format('woff2'),
+  url('fonts/FreightDisp-BookItalic.woff') format('woff'),
+  url('fonts/FreightDisp-BookItalic.ttf') format('truetype');
 }
 
 @font-face {
