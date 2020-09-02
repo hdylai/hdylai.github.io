@@ -126,7 +126,7 @@ body {
   font-size: 24px;
   letter-spacing: -0.035em;
   line-height: 29px;
-  background-color: lightgrey;
+  *background-color: lightgrey;
   *overflow: hidden; /* Hide scrollbars */
 }
 
@@ -148,6 +148,16 @@ footer {
 }
 
 @media only screen and (max-width: 1000px) {
+  a {
+    font-color: darkgrey;
+    text-decoration: none;
+  }
+
+  footer a {
+    font-color: black;
+    text-decoration: underline;
+  }
+
   article {
     min-height: calc(100vh - 100px);
     grid-template-columns: 1fr 1fr;
@@ -178,6 +188,16 @@ footer {
 
 
 @media only screen and (max-width: 768px) {
+  a {
+    font-color: darkgrey;
+    text-decoration: none;
+  }
+
+  footer a {
+    font-color: black;
+    text-decoration: underline;
+  }
+
   article {
     min-height: calc(100vh - 100px);
     grid-template-columns: 1fr;
