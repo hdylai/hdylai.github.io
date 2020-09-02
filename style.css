@@ -130,7 +130,7 @@ footer {
 
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 768px) {
   article {
     min-height: calc(100vh - 100px);
     grid-template-columns: 1fr;
