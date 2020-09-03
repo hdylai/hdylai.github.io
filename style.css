@@ -10,7 +10,7 @@ html {
   *min-height: calc:(100vh * 1.1);
 }
 
-@font-face {
+/* @font-face {
   font-family: Freight Disp Book;
   font-style: italic;
   font-weight: normal;
@@ -19,6 +19,19 @@ html {
   url('fonts/FreightDisp-BookItalic.woff2') format('woff2'),
   url('fonts/FreightDisp-BookItalic.woff') format('woff'),
   url('fonts/FreightDisp-BookItalic.ttf') format('truetype');
+} */
+
+@font-face {
+    font-family: Freight Disp Medium;
+    src: url('fonts/freightdisp-mediumitalic.eot');
+    src: url('fonts/freightdisp-mediumitalic.eot?#iefix') format('embedded-opentype'),
+         url('fonts/freightdisp-mediumitalic.woff2') format('woff2'),
+         url('fonts/freightdisp-mediumitalic.woff') format('woff'),
+         url('fonts.freightdisp-mediumitalic.ttf') format('truetype'),
+         url('fonts/freightdisp-mediumitalic.svg#freight_dispmedium_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 @font-face {
@@ -39,7 +52,7 @@ h1 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  font-family: Freight Disp Book, sans-serif;
+  font-family: Freight Disp Medium, sans-serif;
   letter-spacing: normal;
   font-size: 48px;
   font-weight:200;
