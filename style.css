@@ -53,6 +53,25 @@ html {
        url("fonts/MinSans-Book-v0300.woff2") format('woff2');
 }
 
+/* hover config */
+
+.hiddenimg {
+  display: none;
+}
+
+.hiddentxt {
+
+}
+
+.hiddentxt a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.hiddentxt:hover ~ .hiddenimg {
+  display: block;
+}
+
 /* Basic styling */
 
 h1 {
@@ -125,20 +144,19 @@ a:hover {
   text-decoration: underline;
 }
 
-img{
+/*img{
    display: none;
    grid-column: 6/13;
    grid-row-start: auto;
 }
 
-span:hover + img{
-  display: block;
-  position: absolute;
-  z-index: -1;
+span:hover ~ img{
+  display: inline-grid;
+  z-index: 1;
 
   grid-column: 6/13;
   grid-row-start: auto;
-}
+} */
 
 footer a:hover {
   color: black;
@@ -232,24 +250,6 @@ footer {
   letter-spacing: normal;
   line-height: 1.2em;
   text-align: left;
-}
-
-/* hover work */
-.hiddenimg {
-  display: none;
-}
-
-.hiddentxt {
-
-}
-
-.hiddentxt a {
-  color: #000000;
-  text-decoration: none;
-}
-
-.hiddentxt:hover ~ .hiddenimg {
-  display: block;
 }
 
 /* Breakpoints for smaller viewports */
