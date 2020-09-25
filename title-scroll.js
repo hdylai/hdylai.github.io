@@ -27,7 +27,7 @@ window.onload = function(e) {
 
 	setTimeout(function() {
 	    setInterval(function () {
-			title_ref.text = title.substr(i, title.length) + "  ---  " + title.substr(0, i);
+			title_ref.text = title.substr(i, title.length) + " — " + title.substr(0, i);
 			i++;
 
 			if (i === title.length) {
