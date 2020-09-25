@@ -96,6 +96,7 @@ p-alt {
 span {
   font-family: GTAmerica;
   font-style: italic;
+  letter-spacing: -0.035em;
   font-weight: normal;
 }
 
@@ -122,6 +123,21 @@ footer a {
 a:hover {
   font-style: italic;
   text-decoration: underline;
+}
+
+img{
+   display: none;
+   grid-column: 6/13;
+   grid-row-start: auto;
+}
+
+span:hover + img{
+  display: block;
+  position: absolute;
+  z-index: -1;
+
+  grid-column: 6/13;
+  grid-row-start: auto;
 }
 
 footer a:hover {
@@ -216,6 +232,24 @@ footer {
   letter-spacing: normal;
   line-height: 1.2em;
   text-align: left;
+}
+
+/* hover work */
+.hiddenimg {
+  display: none;
+}
+
+.hiddentxt {
+
+}
+
+.hiddentxt a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.hiddentxt:hover ~ .hiddenimg {
+  display: block;
 }
 
 /* Breakpoints for smaller viewports */
