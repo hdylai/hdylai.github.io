@@ -29,6 +29,30 @@ html {
   src: url("fonts/GTAmerica-RegularItalic.woff");
 }
 
+@font-face {
+  font-family: MinSans;
+  font-style: normal;
+  font-weight: bolder;
+  src: url("fonts/MinSans-Black-v0300.woff") format('woff'),
+       url("fonts/MinSans-Black-v0300.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: MinSans;
+  font-style: normal;
+  font-weight: medium;
+  src: url("fonts/MinSans-Medium-v0300.woff") format('woff'),
+       url("fonts/MinSans-Medium-v0300.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: MinSans;
+  font-style: normal;
+  font-weight: book;
+  src: url("fonts/MinSans-Book-v0300.woff") format('woff'),
+       url("fonts/MinSans-Book-v0300.woff2") format('woff2');
+}
+
 /* Basic styling */
 
 h1 {
