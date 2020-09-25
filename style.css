@@ -30,7 +30,7 @@ html {
 }
 
 @font-face {
-  font-family: MinSans;
+  font-family: MinSans-Black;
   font-style: normal;
   font-weight: bolder;
   src: url("fonts/MinSans-Black-v0300.woff") format('woff'),
@@ -46,7 +46,7 @@ html {
 }
 
 @font-face {
-  font-family: MinSans;
+  font-family: MinSans-Book;
   font-style: normal;
   font-weight: book;
   src: url("fonts/MinSans-Book-v0300.woff") format('woff'),
@@ -66,11 +66,19 @@ h1 {
   line-height: auto;
 }
 
-p {
-  font-family: GTAmerica;
+p-title {
+  font-family: MinSans-Black;
+  font-weight: bolder;
   font-size: 24px;
-  letter-spacing: -0.035em;
-  line-height: 29px;
+  letter-spacing: 0;
+  line-height: 116.5%;
+}
+
+p {
+  font-family: MinSans-Book;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 116.5%;
 
   display: block;
   margin-block-start: 0px;
@@ -86,8 +94,10 @@ span {
 }
 
 a {
+  font-family: GTAmerica;
+  letter-spacing: -0.035em;
   color: black;
-  font-style: italic;
+  font-style: normal;
   text-decoration: none;
   *font-variation-settings: "wght" 100, "wdth" 100;
   *transition: font-variation-settings 0.4s;
@@ -95,19 +105,21 @@ a {
 
 footer a {
   color: black;
+  letter-spacing: 0;
+  font-size: 18px;
   font-style: normal;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:hover {
-  font-style: normal;
+  font-style: italic;
   text-decoration: underline;
 }
 
 footer a:hover {
   color: black;
-  font-style: normal;
-  text-decoration: none;
+  font-style: italic;
+  text-decoration: underline;
 }
 
 /* Content styling */
