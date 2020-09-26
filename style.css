@@ -69,7 +69,24 @@ html {
 }
 
 .hiddentxt:hover ~ .hiddenimg {
-  display: block;
+
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* display: inline;
+  position: absolute;
+  z-index: -1;
+  margin-left: 35%;
+  justify-content: center;
+  flex-direction: column; */
+
+
 }
 
 /* Basic styling */
