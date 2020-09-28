@@ -125,20 +125,22 @@ p {
 
 p-alt {
   font-family: GTAmerica;
-  letter-spacing: -0.035em;
-  line-height: 1.0;
+  font-style:italic;
+  letter-spacing: -0.025em;
+  line-height: 0.1;
 }
 
 span {
   font-family: GTAmerica;
-  font-style: italic;
-  letter-spacing: -0.035em;
+  font-style: normal;
+  letter-spacing: -0.025em;
   font-weight: normal;
+  line-height: 1.0;
 }
 
 a {
   font-family: GTAmerica;
-  letter-spacing: -0.035em;
+  letter-spacing: -0.025em;
   line-height: 1.0;
   color: black;
   font-style: normal;
@@ -156,24 +158,36 @@ footer a {
   text-decoration: none;
 }
 
-a:hover {
+a:hover{
   font-style: italic;
   text-decoration: underline;
+  cursor: pointer;
 }
 
-/*img{
+img{
    display: none;
    grid-column: 6/13;
    grid-row-start: auto;
 }
 
-span:hover ~ img{
-  display: inline-grid;
-  z-index: 1;
+span:hover{
+  font-style: normal;
+  text-decoration: none;
+  /* color: #605C4E; */
+  color: #EE6C4D;
+}
 
-  grid-column: 6/13;
-  grid-row-start: auto;
-} */
+span:hover ~ img{
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 footer a:hover {
   color: black;
@@ -200,7 +214,8 @@ article {
   /* margin-top: 36px; */
   margin-bottom: 50px;
   grid-template-columns: repeat(12, 1fr);
-  grid-gap: 0.2rem;
+  grid-column-gap: 0.75em;
+  grid-row-gap: 0.5em;
   grid-template-rows: auto 1fr auto;
 }
 
@@ -239,17 +254,21 @@ content {
   z-index: 2;
   align-self: end;
 
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 quote-indented {
   grid-column: 4/9;
   grid-row-start: auto;
-  color: #406784;
   z-index: 2;
-  align-self: end;
+  /*align-self: end;*/
 
-  margin-bottom: 50px;
+  font-size: 24px;
+  line-height: 1.15;
+  /*color: #406784;*/
+  color: #605C4E;
+
+  margin-bottom: 0px;
 }
 
 footer {
