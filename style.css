@@ -278,8 +278,8 @@ footer {
   z-index: 2;
   *align-self: end;
 
-  *position: fixed;
-  *bottom: 50px;
+  position: absolute;
+  bottom: 50px;
 
   font-family: GTAmerica;
   font-size: 18px;
