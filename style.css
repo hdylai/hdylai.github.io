@@ -231,6 +231,7 @@ header {
   grid-row: 1;
   *background: white;
   z-index: 2;
+  height: 0;
 }
 
 main {
@@ -380,6 +381,15 @@ footer {
     font-weight:200;
     line-height: auto;
   }
+
+  p{
+    font-size: 22px;
+  }
+
+  p-title{
+    font-size: 22px;
+  }
+
 
   a {
     font-color: darkgrey;
