@@ -116,7 +116,7 @@ p {
   letter-spacing: 0;
   line-height: 117%;
 
-  display: block;
+  display: inline;
   margin-block-start: 0px;
   margin-block-end: 0px;
   margin-inline-start: 0px;
