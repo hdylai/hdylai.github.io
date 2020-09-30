@@ -149,6 +149,16 @@ a {
   *transition: font-variation-settings 0.4s;
 }
 
+a.mail:link{
+  font-family: MinSans-Black;
+  font-weight: bolder;
+  font-size: 24px;
+  letter-spacing: 0.005em;
+  line-height: 117%;
+  font-style: normal;
+  text-decoration: none;
+}
+
 footer a {
   color: black;
   letter-spacing: 0;
@@ -394,6 +404,10 @@ footer {
   a {
     font-color: darkgrey;
     text-decoration: none;
+  }
+
+  a.mail:link{
+    font-size: 22px;
   }
 
   footer a {
