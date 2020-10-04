@@ -184,7 +184,9 @@ span:hover{
   font-style: normal;
   text-decoration: none;
   /* color: #605C4E; */
-  color: #EE6C4D;
+  /* color: #EE6C4D; */
+  /* color: #7C616C; */
+  color: #FF4242;
 }
 
 span:hover ~ img{
