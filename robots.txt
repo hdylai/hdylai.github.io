@@ -1,0 +1,11 @@
+User-agent: Googlebot-Image
+Disallow: /img/index/hdylai.jpg
+
+User-agent: Googlebot-Image
+Disallow: /img/index/SCL.png
+
+User-agent: *
+Disallow: /img/index/hdylai.jpg
+
+User-agent: *
+Disallow: /img/index/SCL.png
