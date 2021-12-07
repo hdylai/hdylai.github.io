@@ -188,6 +188,11 @@ img{
    grid-row-start: auto;
 }
 
+img.rounded-corners{
+  border-radius:10px;
+  filter: drop-shadow(5px 5px 5px #5e5e5e);
+}
+
 span:hover{
   font-style: italic;
   text-decoration: none;
