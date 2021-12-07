@@ -468,4 +468,6 @@ footer {
     grid-row: 3;
 
     position:inherit;
+
+    margin-bottom: 50px;
   }
