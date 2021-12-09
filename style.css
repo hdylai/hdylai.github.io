@@ -387,6 +387,8 @@ footer {
   footer {
     grid-column: 1/2;
     grid-row: 3;
+
+    position:bottom;
   }
 
 
@@ -467,7 +469,7 @@ footer {
     grid-column: 1;
     grid-row: 3;
 
-    position:bottom;
+    position:inherit;
 
-    margin-bottom: 16px;
+    margin-bottom: 48px;
   }
