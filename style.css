@@ -305,7 +305,7 @@ footer {
   *align-self: end;
 
   position: absolute;
-  bottom: 50px;
+  bottom: 48px;
 
   font-family: GTAmerica;
   font-size: 18px;
@@ -467,7 +467,7 @@ footer {
     grid-column: 1;
     grid-row: 3;
 
-    position:inherit;
+    position:bottom;
 
-    margin-bottom: 50px;
+    margin-bottom: 16px;
   }
