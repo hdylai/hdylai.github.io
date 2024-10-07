@@ -1,5 +1,5 @@
 html {
-  background: linear-gradient(122.18deg, #FFEAD7 8.01%, #BCE3FF 95.95%);
+  background: #F2F2F2;
   background-size: cover;
 }
 
@@ -64,7 +64,7 @@ html {
 }
 
 .hiddentxt a {
-  color: #000000;
+  color: #114C9A;
   text-decoration: none;
 }
 
@@ -115,6 +115,7 @@ p {
   font-size: 24px;
   letter-spacing: 0;
   line-height: 117%;
+  color: #114C9A;
 
   display: inline;
   margin-block-start: 0px;
@@ -150,7 +151,7 @@ a {
   font-family: GTAmerica;
   letter-spacing: -0.025em;
   line-height: 1.0;
-  color: black;
+  color: #114C9A;
   font-style: normal;
   text-decoration: none;
   *font-variation-settings: "wght" 100, "wdth" 100;
@@ -168,7 +169,7 @@ a.mail:link{
 }
 
 footer a {
-  color: black;
+  color: #114C9A;
   letter-spacing: 0;
   font-size: 18px;
   line-height: 102%;
@@ -199,7 +200,7 @@ span:hover{
   /* color: #605C4E; */
   /* color: #EE6C4D; */
   /* color: #7C616C; */
-  color: #FF4242;
+  color: #EA1B25;
 }
 
 span:hover ~ img{
@@ -215,7 +216,7 @@ span:hover ~ img{
 }
 
 footer a:hover {
-  color: black;
+  color: #114C9A;
   font-style: italic;
   text-decoration: underline;
 }
@@ -226,7 +227,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  *background: linear-gradient(90deg, #FFEAD7 8.01%, #BCE3FF 95.95%);
+  *background: #F2F2F2;
   overflow-x: hidden;
   *overflow-y: hidden;
   margin: 0 auto 0;
@@ -312,13 +313,14 @@ footer {
   letter-spacing: normal;
   line-height: 1.2em;
   text-align: left;
+  color: #114C9A;
 }
 
 /* Breakpoints for smaller viewports */
 
 @media only screen and (max-width: 1000px) {
   html {
-    background: linear-gradient(122.18deg, #FFEAD7 8.01%, #BCE3FF 95.95%);
+    background: #F2F2F2;
     min-height: calc(1.1*100vh);
   }
 
@@ -339,7 +341,7 @@ footer {
   }
 
   footer a {
-    font-color: black;
+    font-color: #114C9A;
     text-decoration: none;
   }
 
@@ -394,7 +396,7 @@ footer {
 
 @media only screen and (max-width: 768px) {
   html {
-    background: linear-gradient(122.18deg, #FFEAD7 8.01%, #BCE3FF 95.95%);
+    background: #F2F2F2;
     min-height: calc(1.1*100vh);
   }
 
@@ -428,7 +430,7 @@ footer {
   }
 
   footer a {
-    font-color: black;
+    font-color: #114C9A;
     text-decoration: none;
   }
 
